@@ -1,7 +1,5 @@
 # WorldBank360 Analytics Dashboard
 
-This project is currently undergoing presentation refinements while core functionality and analytics components remain fully operational.
-
 ## Project Overview
 
 WorldBank360 Analytics is an end-to-end Business Intelligence and Data Analytics project built using Python, SQL Server, and Power BI. The project analyzes global economic and human development indicators from 1960 to 2025 using data extracted from the World Bank API.
@@ -97,9 +95,23 @@ A star schema was implemented in SQL Server.
 
 ---
 
+## Dashboard Preview
+
+### Executive Overview
+<img width="2427" height="1365" alt="pg2" src="https://github.com/user-attachments/assets/86eb09c3-5b88-4993-887f-ad8135ea8572" />
+
+### Human Development & Education Analysis
+<img width="2376" height="1332" alt="pg5" src="https://github.com/user-attachments/assets/b124a64d-727a-4a89-a7cb-6063595c4a16" />
+
+### Country Deep Dive
+<img width="2376" height="1335" alt="pg6" src="https://github.com/user-attachments/assets/5b9e5811-4050-4235-8f5a-b9451ee7db85" />
+
+
 ## Dashboard Pages
 
-### 1. Executive Overview
+### 1. Home page
+
+### 2. Executive Overview
 
 Provides a high-level summary of:
 
@@ -108,7 +120,7 @@ Provides a high-level summary of:
 * Unemployment patterns
 * Life expectancy metrics
 
-### 2. Economic Stability Analysis
+### 3. Economic Stability Analysis
 
 Focuses on:
 
@@ -117,7 +129,7 @@ Focuses on:
 * Hyperinflation analysis
 * Country stability comparisons
 
-### 3. Economic Growth & Employment
+### 4. Economic Growth & Employment
 
 Explores:
 
@@ -126,14 +138,25 @@ Explores:
 * Employment trends
 * Economic comparisons between countries
 
-### 4. Human Development Analysis
+### 5. Human Development & Education Analysis
 
 Analyzes:
 
 * Life expectancy trends
-* Education indicators
-* Development comparisons
-* Education vs unemployment relationships
+* School enrollment patterns
+* GDP vs life expectancy relationships
+* Education and unemployment comparisons
+* Top-performing countries by development indicators
+
+### 6. Country Deep Dive
+
+Provides a drill-through analysis for individual countries including:
+
+* GDP per capita trends
+* Inflation history
+* Unemployment patterns
+* Life expectancy changes
+* Country-specific KPI monitoring
 
 ---
 
@@ -165,6 +188,21 @@ The dashboard includes:
 * Interactive filtering
 * Dynamic DAX measures
 * Business-focused storytelling
+
+---
+
+## Power BI Features
+
+The dashboard incorporates several Business Intelligence capabilities:
+
+* Drill-through navigation
+* Interactive slicers
+* Dynamic KPI cards
+* Cross-filtering visuals
+* Trend analysis
+* Correlation analysis
+* Country-level exploration
+* Data storytelling dashboards
 
 ---
 
@@ -218,7 +256,6 @@ WorldBank360-Analytics/
 ├── python/
 ├── sql/
 ├── powerbi/
-├── docs/
 ├── README.md
 └── requirements.txt
 ```
